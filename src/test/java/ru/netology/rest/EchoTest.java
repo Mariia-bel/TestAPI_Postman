@@ -15,7 +15,7 @@ public class EchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data.toString()=='som data'", is(true))
+                .body("data.toString()=='some data'", is(true))
         ;
 
     }
